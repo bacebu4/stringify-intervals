@@ -1,0 +1,21 @@
+{
+  "name": "stringify-intervals",
+  "version": "1.0.0",
+  "description": "Stringification of array intervals",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "bacebu4 <vasua14735@icloud.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  }
+}
