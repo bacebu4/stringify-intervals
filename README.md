@@ -1,11 +1,11 @@
 # Usage
 
-Run `npm i bacebu4/stringify-intervals` for installation process
+Run `npm i stringify-intervals` for installation process
 
 For asynchronous usage
 
 ```js
-const { stringifyIntervals } = require("bacebu4/stringify-intervals");
+const { stringifyIntervals } = require("stringify-intervals");
 
 (async () => {
   const stringified = await stringifyIntervals([1, 2, 3]);
@@ -15,7 +15,7 @@ const { stringifyIntervals } = require("bacebu4/stringify-intervals");
 For synchronous usage
 
 ```js
-const { stringifyIntervalsSync } = require("bacebu4/stringify-intervals");
+const { stringifyIntervalsSync } = require("stringify-intervals");
 
 const stringified = stringifyIntervalsSync([1, 2, 3]);
 ```
