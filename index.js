@@ -1,7 +1,7 @@
-const stringifyIntervals = require("./lib/stringify-intervals");
-const stringifyIntervalsAsync = require("./lib/async");
+const stringifyIntervalsSync = require("./lib/stringify-intervals");
+const stringifyIntervals = require("./lib/async");
 
 module.exports = {
-  stringifyIntervals: stringifyIntervalsAsync,
-  stringifyIntervalsSync: stringifyIntervals,
+  stringifyIntervals,
+  stringifyIntervalsSync,
 };
