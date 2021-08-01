@@ -1,6 +1,6 @@
 {
   "name": "stringify-intervals",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Produce string from array intervals",
   "main": "index.js",
   "keywords": [
