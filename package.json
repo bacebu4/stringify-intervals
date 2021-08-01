@@ -1,13 +1,26 @@
 {
   "name": "stringify-intervals",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Produce string from array intervals",
   "main": "index.js",
+  "keywords": [
+    "stringify array",
+    "prime intervals",
+    "consecutive prime intervals"
+  ],
   "scripts": {
     "test": "jest"
   },
   "author": "bacebu4 <vasua14735@icloud.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacebu4/stringify-intervals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bacebu4/stringify-intervals/issues"
+  },
+  "homepage": "https://github.com/bacebu4/stringify-intervals#readme",
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "eslint": "^7.32.0",
@@ -17,5 +30,6 @@
     "eslint-plugin-promise": "^5.1.0",
     "jest": "^27.0.6",
     "prettier": "^2.3.2"
-  }
+  },
+  "types": "index.d.ts"
 }
